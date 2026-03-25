@@ -12,8 +12,6 @@
 
 This project combines state‑of‑the‑art classification models (XGBoost, Random Forest, Logistic Regression) with a beautiful Streamlit frontend. Users can enter transaction details and instantly receive a fraud probability, helping financial institutions or individuals flag suspicious activity in real time.
 
-![App Screenshot](screenshot.png) <!-- Add a screenshot of your dashboard -->
-
 ---
 
 ## ✨ Features
