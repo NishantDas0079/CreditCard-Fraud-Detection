@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large dataset – do NOT push
+data/creditcard.csv
+
+# Model files (optional – if you want to include them, remove this line)
+# models/*.pkl
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
