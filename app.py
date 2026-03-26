@@ -1,6 +1,3 @@
-import os
-os.chdir(r"C:\Users\Nishant\Downloads\NDxGenius\fraud_detection")
-
 import streamlit as st
 import joblib
 import pandas as pd
@@ -200,7 +197,6 @@ with st.container():
         heuristic = heuristic_risk(amount, time_val)
 
         # 3. Combine: give more weight to heuristic for demonstration (70% heuristic, 30% model)
-        #    This makes the final probability clearly respond to amount/time.
         final_prob = 0.7 * heuristic + 0.3 * prob_model
 
         # 4. Determine verdict
